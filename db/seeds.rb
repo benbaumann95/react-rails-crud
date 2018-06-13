@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+tech = ['React', 'JavaScript', 'Ruby', 'Rails', 'HTML', "CSS", "Redux", "Node", "SQL", "MongoDB", "Python", "Java", "Angular", "JQuery"]
+tech.each{|tech| Technology.create(name: tech, description: "I am a cool langauge using #{tech}.", function: "Programming")}

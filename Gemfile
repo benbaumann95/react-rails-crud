@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.4.3'
 
+gem 'react-rails'
+
 gem 'bootsnap', require: false
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
